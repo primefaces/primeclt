@@ -1,0 +1,14 @@
+{
+	"vue": {
+		"name": "Vue.js",
+		"value": "vue"
+	},
+	"angular": {
+		"name": "Angular",
+		"value": "angular"
+	},
+	"react": {
+		"name": "React",
+		"value": "react"
+	}
+}

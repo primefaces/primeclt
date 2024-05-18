@@ -1,0 +1,14 @@
+{
+	"vue": [
+		{
+			"name": "Nuxt",
+			"value": "nuxt"
+		},
+		{
+			"name": "Vite",
+			"value": "vite"
+		}
+	],
+	"angular": [],
+	"react": []
+}

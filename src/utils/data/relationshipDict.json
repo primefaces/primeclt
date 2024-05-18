@@ -1,0 +1,9 @@
+{
+  "grid > col, grid > [class*=\"col\"]": "box-border",
+  "grid-nogutter > col, grid-nogutter > [class*=\"col-\"]": "p-0",
+  "field > label": "inline-block mb-2",
+  "fieldgrid > label": "flex items-center",
+  "field > small": "mt-1",
+  "formgroup-inline field > label, formgroup-inline field-checkbox > label, formgroup-inline field-radiobutton > label": "mr-2 -mb-0",
+  "field-checkbox > label, field-radiobutton > label": "ml-2 leading-none"
+}

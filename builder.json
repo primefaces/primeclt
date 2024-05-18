@@ -1,0 +1,409 @@
+{
+	"data": {
+		"form": {
+			"name": "Form",
+			"components": [
+				{
+					"name": "AutoComplete",
+					"path": "autocomplete"
+				},
+				{
+					"name": "Calendar",
+					"path": "calendar"
+				},
+				{
+					"name": "CascadeSelect",
+					"path": "cascadeselect"
+				},
+				{
+					"name": "Checkbox",
+					"path": "checkbox"
+				},
+				{
+					"name": "Chips",
+					"path": "chips"
+				},
+				{
+					"name": "ColorPicker",
+					"path": "colorpicker"
+				},
+				{
+					"name": "Dropdown",
+					"path": "dropdown"
+				},
+				{
+					"name": "Editor",
+					"path": "editor",
+					"disabled": true
+				},
+				{
+					"name": "InputGroup",
+					"path": "inputgroup"
+				},
+				{
+					"name": "InputGroupAddon",
+					"path": "inputgroupaddon"
+				},
+				{
+					"name": "InputMask",
+					"path": "inputmask"
+				},
+				{
+					"name": "InputNumber",
+					"path": "inputnumber"
+				},
+				{
+					"name": "InputSwitch",
+					"path": "inputswitch"
+				},
+				{
+					"name": "InputText",
+					"path": "inputtext"
+				},
+				{
+					"name": "Knob",
+					"path": "knob"
+				},
+				{
+					"name": "Listbox",
+					"path": "listbox"
+				},
+				{
+					"name": "MultiSelect",
+					"path": "multiselect"
+				},
+				{
+					"name": "Password",
+					"path": "password"
+				},
+				{
+					"name": "RadioButton",
+					"path": "radiobutton"
+				},
+				{
+					"name": "Rating",
+					"path": "rating"
+				},
+				{
+					"name": "SelectButton",
+					"path": "selectbutton"
+				},
+				{
+					"name": "Slider",
+					"path": "slider"
+				},
+				{
+					"name": "Textarea",
+					"path": "textarea"
+				},
+				{
+					"name": "ToggleButton",
+					"path": "togglebutton"
+				},
+				{
+					"name": "TreeSelect",
+					"path": "treeselect"
+				},
+				{
+					"name": "TriStateCheckbox",
+					"path": "tristatecheckbox"
+				}
+			]
+		},
+		"button": {
+			"name": "Button",
+			"components": [
+				{
+					"name": "Button",
+					"path": "button"
+				},
+				{
+					"name": "Speed Dial",
+					"path": "speeddial",
+					"disabled": true
+				},
+				{
+					"name": "SplitButton",
+					"path": "splitbutton"
+				}
+			]
+		},
+		"data": {
+			"name": "Data",
+			"components": [
+				{
+					"name": "DataTable",
+					"path": "datatable"
+				},
+				{
+					"name": "DataView",
+					"path": "dataview"
+				},
+				{
+					"name": "OrderList",
+					"path": "orderlist"
+				},
+				{
+					"name": "Org Chart",
+					"path": "organizationchart"
+				},
+				{
+					"name": "Paginator",
+					"path": "paginator"
+				},
+				{
+					"name": "PickList",
+					"path": "picklist"
+				},
+				{
+					"name": "Tree",
+					"path": "tree"
+				},
+				{
+					"name": "TreeTable",
+					"path": "treetable"
+				},
+				{
+					"name": "Timeline",
+					"path": "timeline",
+					"disabled": true
+				},
+				{
+					"name": "VirtualScroller",
+					"path": "virtualscroller",
+					"disabled": true
+				}
+			]
+		},
+		"panel": {
+			"name": "Panel",
+			"components": [
+				{
+					"name": "Accordion",
+					"path": "accordion"
+				},
+				{
+					"name": "Card",
+					"path": "card"
+				},
+				{
+					"name": "Deferred",
+					"path": "deferredcontent",
+					"disabled": true
+				},
+				{
+					"name": "Divider",
+					"path": "divider"
+				},
+				{
+					"name": "Fieldset",
+					"path": "fieldset"
+				},
+				{
+					"name": "Panel",
+					"path": "panel"
+				},
+				{
+					"name": "ScrollPanel",
+					"path": "scrollpanel"
+				},
+				{
+					"name": "Splitter",
+					"path": "splitter",
+					"disabled": true
+				},
+				{
+					"name": "TabView",
+					"path": "tabview"
+				},
+				{
+					"name": "Toolbar",
+					"path": "toolbar"
+				}
+			]
+		},
+		"overlay": {
+			"name": "Overlay",
+			"components": [
+				{
+					"name": "ConfirmPopup",
+					"path": "confirmpopup"
+				},
+				{
+					"name": "Dialog",
+					"path": "dialog"
+				},
+				{
+					"name": "OverlayPanel",
+					"path": "overlaypanel"
+				},
+				{
+					"name": "Sidebar",
+					"path": "sidebar"
+				},
+				{
+					"name": "Tooltip",
+					"path": "tooltip"
+				}
+			]
+		},
+		"file": {
+			"name": "File",
+			"components": [
+				{
+					"name": "Upload",
+					"path": "fileupload",
+					"disabled": true
+				}
+			]
+		},
+		"menu": {
+			"name": "Menu",
+			"components": [
+				{
+					"name": "Breadcrumb",
+					"path": "breadcrumb"
+				},
+				{
+					"name": "ContextMenu",
+					"path": "contextmenu"
+				},
+				{
+					"name": "Dock",
+					"path": "dock"
+				},
+				{
+					"name": "Menu",
+					"path": "menu"
+				},
+				{
+					"name": "Menubar",
+					"path": "menubar"
+				},
+				{
+					"name": "MegaMenu",
+					"path": "megamenu"
+				},
+				{
+					"name": "PanelMenu",
+					"path": "panelmenu"
+				},
+				{
+					"name": "Steps",
+					"path": "steps"
+				},
+				{
+					"name": "TabMenu",
+					"path": "tabmenu"
+				},
+				{
+					"name": "TieredMenu",
+					"path": "tieredmenu"
+				}
+			]
+		},
+		"message": {
+			"name": "Message",
+			"components": [
+				{
+					"name": "Message",
+					"path": "message"
+				},
+				{
+					"name": "InlineMessage",
+					"path": "inlinemessage"
+				},
+				{
+					"name": "Toast",
+					"path": "toast"
+				}
+			]
+		},
+		"media": {
+			"name": "Media",
+			"components": [
+				{
+					"name": "Carousel",
+					"path": "carousel",
+					"disabled": true
+				},
+				{
+					"name": "Galleria",
+					"path": "galleria",
+					"disabled": true
+				},
+				{
+					"name": "Image",
+					"path": "image",
+					"disabled": true
+				}
+			]
+		},
+		"misc": {
+			"name": "Misc",
+			"components": [
+				{
+					"name": "Avatar",
+					"path": "avatar"
+				},
+				{
+					"name": "Badge",
+					"path": "badge"
+				},
+				{
+					"name": "BadgeDirective",
+					"path": "badgedirective",
+					"directive": true
+				},
+				{
+					"name": "BlockUI",
+					"path": "blockui",
+					"disabled": true
+				},
+				{
+					"name": "Chip",
+					"path": "chip"
+				},
+				{
+					"name": "Inplace",
+					"path": "inplace",
+					"disabled": true
+				},
+				{
+					"name": "ScrollTop",
+					"path": "scrolltop"
+				},
+				{
+					"name": "Skeleton",
+					"path": "skeleton"
+				},
+				{
+					"name": "ProgressBar",
+					"path": "progressbar"
+				},
+				{
+					"name": "ProgressSpinner",
+					"path": "progressspinner",
+					"disabled": true
+				},
+				{
+					"name": "Ripple",
+					"path": "ripple",
+					"directive": true
+				},
+				{
+					"name": "Tag",
+					"path": "tag"
+				},
+				{
+					"name": "Terminal",
+					"path": "terminal"
+				}
+			]
+		}
+	},
+	"presets": [
+		{ "name": "Lara", "value": "lara" },
+		{ "name": "Wind", "value": "wind" }
+	]
+}
