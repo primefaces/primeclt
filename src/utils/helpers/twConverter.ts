@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import translation from "../data/translationDict.json";
-import relationship from "../data/relationshipDict.json";
 
 function preprocessHtml(htmlContent: string): string {
 	// Simplified: Directly return htmlContent or perform necessary string replacements
@@ -36,9 +35,7 @@ function directTranslateToTailwind(
 
 function processFolder(
 	folderPath: string,
-	translationDict: Record<string, string>,
-	relationshipDict: Record<string, string>
-) {
+	translationDict: Record<string, string>) {
 	if (folderPath.includes("node_modules")) {
 		return;
 	}
@@ -50,8 +47,7 @@ function processFolder(
 			if (entry.isDirectory()) {
 				processFolder(
 					path.join(folderPath, entry.name),
-					translationDict,
-					relationshipDict
+					translationDict
 				);
 			} else if (
 				entry.name.endsWith(".vue") ||
@@ -83,7 +79,7 @@ function processFolder(
 }
 
 function loadTranslationDict(vueFolderPath: string) {
-	processFolder(vueFolderPath, translation, relationship);
+	processFolder(vueFolderPath, translation);
 }
 
 export function startTranslation(vueFolderPath: string) {
