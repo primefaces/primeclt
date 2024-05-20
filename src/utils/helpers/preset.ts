@@ -97,7 +97,8 @@ export async function exportPresets(
 export async function presetSelection(projectType: string = "vue") {
 	const cacheDirectory = getCacheDirectory();
 
-	const builder = JSON.parse(
+	let builder;
+	builder = JSON.parse(
 		fs.readFileSync(
 			path.join(cacheDirectory, "presets", projectType, "builder.json"),
 			"utf-8"

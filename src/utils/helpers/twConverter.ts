@@ -3,7 +3,6 @@ import * as path from "path";
 import translation from "../data/translationDict.json";
 
 function preprocessHtml(htmlContent: string): string {
-	// Simplified: Directly return htmlContent or perform necessary string replacements
 	return htmlContent;
 }
 
@@ -35,7 +34,8 @@ function directTranslateToTailwind(
 
 function processFolder(
 	folderPath: string,
-	translationDict: Record<string, string>) {
+	translationDict: Record<string, string>
+) {
 	if (folderPath.includes("node_modules")) {
 		return;
 	}

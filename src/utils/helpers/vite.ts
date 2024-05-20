@@ -193,6 +193,12 @@ export async function advancedPrimeVueViteSetup(
 			]
 		};
 	} else if (selectedType === "PrimeVueUnstyled") {
+		// PRESET SELECTION DISABLED FOR BETA RELEASE
+		return {
+			options: `{ unstyled: true }`,
+			imports: []
+		};
+
 		const { presetDir, name } = preset ? preset : await presetSelection();
 		const engineBasedPath = "src";
 		const srcFolderPath = path.join(projectPath, engineBasedPath);
@@ -221,7 +227,7 @@ export async function advancedPrimeVueViteSetup(
 
 		return {
 			options: `{ unstyled: true, pt: ${presetName} }`,
-			imports
+			imports: []
 		};
 	} else {
 		return {
