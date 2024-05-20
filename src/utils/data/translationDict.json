@@ -1,8 +1,6 @@
 {
     "grid": "grid grid-cols-12 gap-4",
     "grid-nogutter": "",
-    "col": "PRIMEFLEX-OBSOLETE",
-    "col-fixed": "PRIMEFLEX-OBSOLETE",
     "col-1": "col-span-1",
     "col-2": "col-span-2",
     "col-3": "col-span-3",
