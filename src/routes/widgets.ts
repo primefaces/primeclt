@@ -6,7 +6,6 @@ import Spinner from "../utils/misc/spinner";
 import {
 	deleteCacheDirectory,
 	downloadPresets,
-	uninstall,
 	updateCachedPresets,
 	updateWorkspacePreset
 } from "../utils/helpers/preset";
@@ -241,10 +240,6 @@ widgets.command("update-preset").action(async () => {
 // 			console.log(err);
 // 		});
 // });
-
-widgets.command("uninstall").action(async () => {
-	await uninstall();
-});
 
 widgets.command("clear-cache").action(async () => {
 	await deleteCacheDirectory();

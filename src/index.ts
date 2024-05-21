@@ -4,6 +4,7 @@ import { widgets } from "./routes/widgets";
 import { Command } from "commander";
 import Spinner from "./utils/misc/spinner";
 import { translateToTailwind } from "./utils/helpers/primeflex";
+import { uninstall } from "./utils/helpers/clt";
 
 const program = new Command();
 const spinner = new Spinner();
@@ -19,6 +20,13 @@ program
 	.description("Translate PrimeFlex classes to Tailwind CSS classes")
 	.action(async () => {
 		await translateToTailwind();
+	});
+
+program
+	.command("uninstall")
+	.description("Uninstall PrimeCLT")
+	.action(async () => {
+		await uninstall();
 	});
 
 async function main() {
