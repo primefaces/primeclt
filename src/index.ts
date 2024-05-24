@@ -11,7 +11,7 @@ const spinner = new Spinner();
 
 program.description("Our New CLI");
 program.option("-v, --verbose", "verbose logging");
-program.version("0.1.3", "--version", "output the current version");
+program.version("0.1.4", "--version", "output the current version");
 
 program.addCommand(widgets);
 
